@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    color: #fff;
+    background-color: #1a1a2e; /* Midnight Blue */
+    line-height: 1.6;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: #162447;
+    text-align: center;
+    padding: 2rem 0;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #e94560; /* Accent Color */
+}
+header p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Navigation */
+nav {
+    background: #0f3460;
+    padding: 1rem 0;
+    text-align: center;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #e94560;
+}
+
+/* Main Sections */
+section {
+    padding: 2rem 0;
+}
+h2 {
+    color: #e94560;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Services */
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.service-card {
+    background: #162447;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 1rem);
+    margin-bottom: 1rem;
+}
+.service-card h3 {
+    color: #e94560;
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+.contact-btn {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.contact-btn:hover {
+    background: #fff;
+    color: #e94560;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #0f3460;
+    color: #fff;
+    font-size: 0.9rem;
+}
